@@ -1,0 +1,25 @@
+Data for results from single-zone tests to determine behavior of 
+coupling between code and Grackle. Tests should be performed with
+hydrodynamics and gravity turned off, allowing iteration over 
+Grackle alone, following the temperature evolution as a
+function of time.
+
+
+Report data here in units of:
+Time         -      Myr
+Temperature  -  T / mu 
+
+
+Test 1: (*need better naming convention if running many of these)
+-----------------------------------------------------------------
+
+rho / m_p = 1.0    cc
+T   / mu  = 1.0E5  
+Z         = 0.002  metal fraction  (so 0.01 Z_sun)
+
+run for 1 Gyr using log-space output starting with
+dt = 1.0E4 yr**
+
+** Enzo test used dt = 1.0E3 yr to start, with 10 outputs
+   per dex in time. Also I set max time step to
+   dt / 100.0, but this may not matter much
