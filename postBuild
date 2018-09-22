@@ -1,1 +1,1 @@
-wget https://media.githubusercontent.com/media/huchiayu/smaug-galscale/master/data/PhaseDiagram/Gadget/gadget_cooling_SF_FB_PhaseDiagram_1000.dat
+wget -P data/ https://media.githubusercontent.com/media/huchiayu/smaug-galscale/master/data/PhaseDiagram/Gadget/gadget_cooling_SF_FB_PhaseDiagram_1000.dat
