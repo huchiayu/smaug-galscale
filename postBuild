@@ -1,2 +1,2 @@
-wget -P data/ https://media.githubusercontent.com/media/huchiayu/smaug-galscale/master/data/PhaseDiagram/Gadget/gadget_cooling_SF_FB_PhaseDiagram_1000.dat
-wget -P data/ ftp@ftp.huchiayu.com/public_ftp/test.txt
+wget -P data/ https://huchiayu.com/wp-content/uploads/2018/09/PhaseDiagram.zip
+unzip -d data/ data/PhaseDiagram.zip
