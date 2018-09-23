@@ -1,3 +1,5 @@
 wget -P data/ https://huchiayu.com/wp-content/uploads/2018/09/PhaseDiagram.zip
-rm -rf data/PhaseDiagram/
-unzip -d data/ data/PhaseDiagram.zip
+cd data/
+rm -rf PhaseDiagram/
+unzip PhaseDiagram.zip
+rm -rf __MACOSX/
