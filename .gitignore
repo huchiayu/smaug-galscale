@@ -9,6 +9,11 @@
 *.pyo 
 *.pyc 
 
+# Images #
+##########
+*.png 
+*.jpg
+
 # Backup #
 ##########
 *.bak

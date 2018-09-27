@@ -82,9 +82,7 @@ def plot_PD(code='gadget', fb=True, sf=True, cooling=True):
     if(code=='ramses'):
         dir='Ramses/'
         if(fb==True):
-            snaps=[0, 2]
-        else:
-            snaps=[0, 1, 2]
+            snaps=[0, 1]
 
     if(code=='enzo'):
         dir='Enzo/'
